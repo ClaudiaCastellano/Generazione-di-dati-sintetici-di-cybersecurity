@@ -35,7 +35,6 @@ metadata.set_primary_key(column_name='id')
 metadata.save_to_json(filepath='metadati.json')
 
 
-
 # Step 1: Creare il sintetizzatore
 from sdv.single_table import CTGANSynthesizer
 

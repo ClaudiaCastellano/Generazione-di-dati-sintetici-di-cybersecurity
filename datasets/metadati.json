@@ -1,0 +1,136 @@
+{
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1",
+    "columns": {
+        "id": {
+            "sdtype": "id",
+            "regex_format": "^[1-9]\\d*$"
+        },
+        "'duration'": {
+            "sdtype": "numerical"
+        },
+        "'protocol_type'": {
+            "sdtype": "categorical"
+        },
+        "'service'": {
+            "sdtype": "categorical"
+        },
+        "'flag'": {
+            "sdtype": "categorical"
+        },
+        "'src_bytes'": {
+            "sdtype": "numerical"
+        },
+        "'dst_bytes'": {
+            "sdtype": "numerical"
+        },
+        "'land'": {
+            "sdtype": "categorical"
+        },
+        "'wrong_fragment'": {
+            "sdtype": "numerical"
+        },
+        "'urgent'": {
+            "sdtype": "numerical"
+        },
+        "'hot'": {
+            "sdtype": "numerical"
+        },
+        "'num_failed_logins'": {
+            "sdtype": "numerical"
+        },
+        "'logged_in'": {
+            "sdtype": "categorical"
+        },
+        "'num_compromised'": {
+            "sdtype": "numerical"
+        },
+        "'root_shell'": {
+            "sdtype": "numerical"
+        },
+        "'su_attempted'": {
+            "sdtype": "numerical"
+        },
+        "'num_root'": {
+            "sdtype": "numerical"
+        },
+        "'num_file_creations'": {
+            "sdtype": "numerical"
+        },
+        "'num_shells'": {
+            "sdtype": "numerical"
+        },
+        "'num_access_files'": {
+            "sdtype": "numerical"
+        },
+        "'num_outbound_cmds'": {
+            "sdtype": "numerical"
+        },
+        "'is_host_login'": {
+            "sdtype": "categorical"
+        },
+        "'is_guest_login'": {
+            "sdtype": "categorical"
+        },
+        "'count'": {
+            "sdtype": "numerical"
+        },
+        "'srv_count'": {
+            "sdtype": "numerical"
+        },
+        "'serror_rate'": {
+            "sdtype": "numerical"
+        },
+        "'srv_serror_rate'": {
+            "sdtype": "numerical"
+        },
+        "'rerror_rate'": {
+            "sdtype": "numerical"
+        },
+        "'srv_rerror_rate'": {
+            "sdtype": "numerical"
+        },
+        "'same_srv_rate'": {
+            "sdtype": "numerical"
+        },
+        "'diff_srv_rate'": {
+            "sdtype": "numerical"
+        },
+        "'srv_diff_host_rate'": {
+            "sdtype": "numerical"
+        },
+        "'dst_host_count'": {
+            "sdtype": "numerical"
+        },
+        "'dst_host_srv_count'": {
+            "sdtype": "numerical"
+        },
+        "'dst_host_same_srv_rate'": {
+            "sdtype": "numerical"
+        },
+        "'dst_host_diff_srv_rate'": {
+            "sdtype": "numerical"
+        },
+        "'dst_host_same_src_port_rate'": {
+            "sdtype": "numerical"
+        },
+        "'dst_host_srv_diff_host_rate'": {
+            "sdtype": "numerical"
+        },
+        "'dst_host_serror_rate'": {
+            "sdtype": "numerical"
+        },
+        "'dst_host_srv_serror_rate'": {
+            "sdtype": "numerical"
+        },
+        "'dst_host_rerror_rate'": {
+            "sdtype": "numerical"
+        },
+        "'dst_host_srv_rerror_rate'": {
+            "sdtype": "numerical"
+        },
+        "'class'": {
+            "sdtype": "categorical"
+        }
+    },
+    "primary_key": "id"
+}

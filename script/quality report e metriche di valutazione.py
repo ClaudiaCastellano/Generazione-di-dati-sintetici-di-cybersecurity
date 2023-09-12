@@ -37,6 +37,8 @@ fig.show()
 
 
 # METRICHE MLEfficacy 
+# N.B. i parametri test_data e train_data sono stati invertiti a causa di un errore nell'implementazione della funzione in SDMetrics
+# https://github.com/sdv-dev/SDMetrics/issues/291
 from sdmetrics.single_table import BinaryAdaBoostClassifier, BinaryDecisionTreeClassifier, BinaryLogisticRegression, BinaryMLPClassifier    
 
 # Decision Tree
